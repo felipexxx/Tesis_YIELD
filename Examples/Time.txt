@@ -1,0 +1,76 @@
+Jobs,Memory,Time,#Models,CrossValidation
+1 , 209018880, 95.92500335530731, 12, 5
+2, 171606016, 69.59102909248806, 12, 5
+1, 152166400, 279.6215367307464, 36,5
+
+
+
+jobs, time, CrossValidation
+1, 32, 10
+2, 23, 10
+3, 20, 10
+
+2, 62, 30
+3, 53, 30
+
+1063s best tuning hyperparameters
+
+RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=80,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_decrease=0.0, min_impurity_split=None,
+           min_samples_leaf=5, min_samples_split=8,
+           min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+           oob_score=False, random_state=42, verbose=0, warm_start=False)
+
+Model Performance
+Average Error: 846.3577 degrees.
+Accuracy = 86.51%.
+Square: 0.340249752581
+Mean Absolute Error: 846.357716926
+Mean Squared Error: 1229568.9968
+Root Mean Squared Error: 1108.85932237
+
+
+
+Descripción de los datos
+Cantidad de datos
+Localización
+
+Descarga de datos.
+Archivos .tab
+
+Preparación de los datos
+de hora a diarios
+Merge entre estaciones
+Gráficas de Outliers
+Generación de el modelo de precipitación con 
+tmax tmin
+generación de Humedad relativa
+generación de radiación solar (Unidades de medida)
+
+preparación datos de ensayos
+solo pasar las fechas al formato y filtrar campos innecesarios
+
+
+Generación de vista minable.
+
+frequencias y conteos, agregaciones, sobre los datos climáticos
+para la creación de registros.
+
+
+Creación de modelo de ML
+Analisis de entrada para cada algoritmo
+transformación de variables categóricas
+
+Split para obtener datos de entrenamientos y datos de testing
+
+Creación de grilla de busqueda para hyperparameter tuning con cross validation
+
+Imprimir metrícas y graficas
+
+hacer este proceso para MLR , SVR, ANN, RF
+
+mencionar random forest y el problema del indice gini que favorece
+variables continuas
+
+
