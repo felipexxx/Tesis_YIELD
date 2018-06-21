@@ -1,0 +1,9 @@
+Seleeccionar un punto que separe dos conjuntos en un hyperplano,
+
+El mejor limite es aquel que maximize el margen entre el punto real más cercano
+
+Los limites de decisiones pueden ser de diferentes formas lineas polinomios o 
+funciones mas ocmplejas, el tipo de limite de desicion es llamado Kernel
+
+Dado que SVR busca maximizar distancias es necesario
+escalar las variables para evitar un sesgo.
